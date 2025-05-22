@@ -1,6 +1,7 @@
 # phishing-url-detector
 A Flask app to detect phishing websites using ML
-![Screenshot (27)](https://github.com/user-attachments/assets/d80124c8-d576-443d-b186-2c3953150500)
-![Screenshot (28)](https://github.com/user-attachments/assets/6f72903a-be16-4494-9c60-3279456b157d)
-![Screenshot (29)](https://github.com/user-attachments/assets/3530e638-205f-44f2-b49f-f7ea54a7bf4a)
-![Screenshot (30)](https://github.com/user-attachments/assets/8f8c8569-556f-4fe3-a4ce-f17cdf482e94)
+
+![Screenshot (27)](https://github.com/user-attachments/assets/3b4ba73b-9e50-4e6f-a23c-7bf29936808c)
+![Screenshot (28)](https://github.com/user-attachments/assets/e70a4b86-d5f9-40f5-9239-92f1ca49d58c)
+![Screenshot (29)](https://github.com/user-attachments/assets/493cc0ed-1faa-4295-9cc9-86cffd79fe10)
+![Screenshot (30)](https://github.com/user-attachments/assets/3891baf9-9292-48e6-b2dc-79e844d4ddda)
