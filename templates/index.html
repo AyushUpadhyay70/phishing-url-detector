@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phishing URL Detector</title>
+</head>
+<body>
+  <h2>Enter a Values (like 0,1) to Check</h2>
+  
+
+<form action="/predict" method="post">
+  <label>SFH:</label><input name="SFH" type="text"><br>
+  <label>popUpWidnow:</label><input name="popUpWidnow" type="text"><br>
+  <label>SSLfinal_State:</label><input name="SSLfinal_State" type="text"><br>
+  <label>Request_URL:</label><input name="Request_URL" type="text"><br>
+  <label>URL_of_Anchor:</label><input name="URL_of_Anchor" type="text"><br>
+  <label>web_traffic:</label><input name="web_traffic" type="text"><br>
+  <label>URL_Length:</label><input name="URL_Length" type="text"><br>
+  <label>age_of_domain:</label><input name="age_of_domain" type="text"><br>
+  <label>having_IP_Address:</label><input name="having_IP_Address" type="text"><br>
+  <button type="submit">Predict</button>
+</form>
+
+
+
+  {% if result %}
+    <h3>{{ result }}</h3>
+  {% endif %}
+</body>
+</html>
